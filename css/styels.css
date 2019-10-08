@@ -1,0 +1,81 @@
+* {
+	font-family: 'Cabin', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: whitesmoke;
+}
+
+.title {
+	font-size: 42px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.is-done {
+	text-decoration: line-through;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	background-color: #fdebc5;
+	width: 400px;
+	height: 40px;
+	margin: 10px auto;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#todo {
+	width: 400px;
+	height: 44px;
+	font-size: 18px;
+}
+
+#btn-add {
+	width: 100px;
+	height: 32px;
+	font-size: 18px;
+	color: whitesmoke;
+	margin-top: 30px;
+	background-color: black;
+}
+
+#undone-only {
+	margin-top: 30px;
+}
+
+input {
+	text-align: center;
+}
+
+img {
+	width: 228px;
+	height: 198px;
+}
+
+i {
+	color: black;
+}
+
+button {
+	cursor: pointer;
+}
+
+label {
+  display:block; 
+  cursor: pointer;
+ }
